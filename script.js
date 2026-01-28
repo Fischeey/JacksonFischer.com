@@ -19,7 +19,7 @@ function home() {
     window.open("http://jacksonfischer.com","_self");
 }
 function design() {
-    window.open("http://3D-Design.jacksonfischer.com","_self");
+    window.open("http://3D-Design.jacksonfischer.com/3dDesign/index.html","_self");
 }
 
 function woodworking() {
