@@ -19,14 +19,14 @@ function home() {
     window.open("http://jacksonfischer.com","_self");
 }
 function design() {
-    window.open("http://3D-Design.jacksonfischer.com/3dDesign/index.html","_self");
+    window.open("http://jacksonfischer.com/3dDesign/index.html","_self");
 }
 
 function woodworking() {
-    window.open("http://woodworking.jacksonfischer.com","_self");
+    window.open("http://jacksonfischer.com/woodworking/index.html","_self");
 }
 function resume() {
-    window.open("http://resume.jacksonfischer.com","_self");
+    window.open("http://jacksonfischer.com/resume/index.html","_self");
 }
 // function secret() {
 //     window.open("http://x.jacksonfischer.com","_self");
