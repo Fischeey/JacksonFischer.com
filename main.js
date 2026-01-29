@@ -3,7 +3,7 @@ function MenuDropdown() {
     console.log("menu dropdown")
     if(down){
         console.log("hidden")
-        document.getElementById("MenuDropdown").style.marginTop = "-196px";
+        document.getElementById("MenuDropdown").style.marginTop = "-225px";
        // document.getElementById("MenuDropdown").style.visibility = "hidden";
         down = false;
     } else {

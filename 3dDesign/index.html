@@ -5,30 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jackson Fischer</title>
     <link rel="stylesheet" href = "../style.css">
-    <script src="../script.js"></script>
+    <link rel="stylesheet" href = "slideshow.css">
+    <script src="../main.js"></script>
+    <script src="slideshow.js"></script>
 </head>
-<body onload="x();" id = "Body" class = "Body">
+<body  id = "Body" class = "Body">
     <div  id="Header" class = "Header"> 
         <button onclick=MenuDropdown() id="Menu-Button" class="Menu-Button"> 
             <div class="Menu-Dropdown-Button-Div">
                 <svg xmlns="http://www.w3.org/2000/svg" class = "Menu-Dropdown-Icon"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-                <a class="Current-Page-Text">Home</a>
+                <a class="Current-Page-Text">3D Design Portfolio</a>
              </div>
         </button>
         
-        <a class="Website-Title">JacksonFischer.com</a> 
+        <a class="Website-Title" onclick=home()>JacksonFischer.com</a> 
         <div    style="    border-right: solid 1px grey;"></div>
-    </div>
-    <div id = "MenuDropdown" class="Menu-Dropdown" style="margin-top: -196px;" >
-        <div id = "Dropdown1" class = "Dropdown">
-            <button class="Page-Select-Button" onclick=design()>
+        <div id = "MenuDropdown" class="Menu-Dropdown" style="margin-top: -196px;" >
+        <div id = "Dropdown1" class = "Dropdown" style="height: 48px;">
+            <button class="Page-Select-Button" onclick=home()>
                 <div style="float: left;">
                     <svg xmlns="http://www.w3.org/2000/svg" class = "Dash"><line x1="3" y1="12" x2="21" y2="12"></line></svg>
-                    <a id="Page-Select1" class="Page-Select">3D Design Portfolio</a>
+                    <a id="Page-Select1" class="Page-Select">Home</a>
                 </div>
             </button>
         </div>
-        <div id = "Dropdown2" class = "Dropdown" >
+        <div id = "Dropdown2" class = "Dropdown" style="height: 48px;">
             <button class="Page-Select-Button" onclick=woodworking()>
                 <div style="float: left;">
                     <svg xmlns="http://www.w3.org/2000/svg" class = "Dash"><line x1="3" y1="12" x2="21" y2="12"></line></svg>
@@ -36,7 +37,7 @@
                 </div>
             </button>
         </div>
-        <div id = "Dropdown3" class = "Dropdown" >
+        <div id = "Dropdown3" class = "Dropdown" style="height: 48px;">
             <button class="Page-Select-Button" onclick=resume()>
                 <div style="float: left;">
                     <svg xmlns="http://www.w3.org/2000/svg" class = "Dash"><line x1="3" y1="12" x2="21" y2="12"></line></svg>
@@ -53,9 +54,751 @@
             </button>
         </div> -->
     </div> 
+    </div>
+    
+
+
+
+
+
+ <br><br> <a class="sectionTitles">blender and 3d-design</a>
+<hr style="  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;">
+
+
+
+
+
     <div class="mainbody">
-        <a class="BodyText">hello, 3d design</a>
+        <a class="BodyText">
+            i began using blender in my sophmore year of highschool when i was 15, i dont use it as much anymore as i have moved onto other pursuits <br>
+            over the years i used it for direct modeling, scultpint, geometry node development, texturing, and a small amount of visual effects, <br>
+            most of which are below<br>
+
+
         
+
+ <br><br> <a class="sectionTitles"> spaceship</a>
+<hr style="  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;">
+
+
+
+
+
+        </a>
+        <div class="slideshow-container" id="spaceship slideshow container">
+            <div class="mySlidesSpaceship fade" style="display:block" id="spaceshipimage1">
+                <img src="images/spaceship/spaceship outer viewport.png" style="width:100%">
+                <div id = "spaceshiptext1" class="text">spaceship caption 1</div>
+            </div>
+            <div  class="mySlidesSpaceship fade"id="spaceshipimage2">
+                <img src="images/spaceship/spaceship outer render.png" style="width:100%">
+                <div id = "spaceshiptext2" class="text">spaceship caption 2</div>
+            </div>
+            <div class="mySlidesSpaceship fade" id="spaceshipimage3">
+                <img src="images/spaceship/spaceship inside viewport.png" style="width:100%">
+                <div id = "spaceshiptext3" class="text">spaceship caption 3</div>
+            </div>
+            <div class="mySlidesSpaceship fade" id="spaceshipimage4">
+                <img src="images/spaceship/spaceship inside render.png" style="width:100%">
+                <div id = "spaceshiptext4" class="text">spaceship caption 4</div>
+            </div>
+            <div class="mySlidesSpaceship fade" id="spaceshipimage5">
+                <img src="images/spaceship/spaceship outbay viewport.png" style="width:100%">
+                <div id = "spaceshiptext5" class="text">spaceship caption 5</div>
+            </div>
+            <div class="mySlidesSpaceship fade" id="spaceshipimage6">
+                <img src="images/spaceship/spaceship outbay render.png" style="width:100%">
+                <div id = "spaceshiptext6" class="text">spaceship caption 6</div>
+            </div>
+            <div class="mySlidesSpaceship fade" id="spaceshipimage6">
+                <img src="images/spaceship/spaceship thrusters viewport.png" style="width:100%">
+                <div id = "spaceshiptext7" class="text">spaceship caption 7</div>
+            </div>            
+            <div class="mySlidesSpaceship fade" id="spaceshipimage6">
+                <video src="images/spaceship/spaceship gun.mp4" style="width:100%" autoplay="autoplay" loop>
+                    <source src="images/spaceship/spaceship gun.mp4" src="images/spaceship/spaceship gun.mp4">
+                    video unable to load
+                </video>
+                <div id = "spaceshiptext8" class="text">spaceship caption 8</div>
+            </div>
+              <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1,0)"></span>
+            <span class="dot" onclick="currentSlide(2,0)"></span>
+            <span class="dot" onclick="currentSlide(3,0)"></span>
+            <span class="dot" onclick="currentSlide(4,0)"></span>
+            <span class="dot" onclick="currentSlide(5,0)"></span>
+            <span class="dot" onclick="currentSlide(6,0)"></span>
+            <span class="dot" onclick="currentSlide(7,0)"></span>
+            <span class="dot" onclick="currentSlide(8,0)"></span>
+        </div>
+
+
+
+       <a class="BodyText">
+            The spaceship is by far the most complex and best looking project ive done, it took several months and versions but the final product<br>
+            is definitly worth it the model is fulley textured with basic colors for different parts including the full interior. some pieces have <br>
+            more complex textures, however it became very difficult to make realistic textures for large pieces like the wings or hull. the entire<br>
+            ship has been designed to that each part has a feasibl function such as the wing piping, rotating thrusters, the interior O2 systems and <br>
+            interior lab. most pieces of the final piece area easily adapted to be used for other projects like the interior objects, or the main thrusters<br>
+
+            <br><br>
+
+            another major feature was the cannons on the wings as they have been designed to be able to be easily oriented realistically as shown in <br>
+            the video using a parent/child strucure
+        </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br><br> <a class="sectionTitles"> astronaut character</a>
+<hr style="  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;">
+        <div class="slideshow-container" id="girl slideshow container">
+            <div class="mySlidesGirl fade" style="display:block" id="spaceshipimage1">
+                <img src="images/spaceship girl/girl full helmet viewport.png" style="width:100%">
+                <div id = "spaceshiptext1" class="text">spaceship caption 1</div>
+            </div>
+            <div  class="mySlidesGirl fade"id="spaceshipimage2">
+                <img src="images/spaceship girl/girl full helmet render.png" style="width:100%">
+                <div id = "spaceshiptext2" class="text">spaceship caption 2</div>
+            </div>
+            <div class="mySlidesGirl fade" id="spaceshipimage3">
+                <img src="images/spaceship girl/girl full render.png" style="width:100%">
+                <div id = "spaceshiptext3" class="text">spaceship caption 3</div>
+            </div>
+            <div class="mySlidesGirl fade" id="spaceshipimage4">
+                <img src="images/spaceship girl/girl  rig viewport.png" style="width:100%">
+                <div id = "spaceshiptext4" class="text">spaceship caption 4</div>
+            </div>
+            <div class="mySlidesGirl fade" id="spaceshipimage5">
+                <img src="images/spaceship girl/girl face viewport.png" style="width:100%">
+                <div id = "spaceshiptext5" class="text">spaceship caption 5</div>
+            </div>
+            <div class="mySlidesGirl fade" id="spaceshipimage6">
+                <img src="images/spaceship girl/girl face render.png" style="width:100%">
+                <div id = "spaceshiptext6" class="text">spaceship caption 6</div>
+            </div>
+
+              <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1, 1)"></span>
+            <span class="dot" onclick="currentSlide(2, 1)"></span>
+            <span class="dot" onclick="currentSlide(3, 1)"></span>
+            <span class="dot" onclick="currentSlide(4,1)"></span>
+            <span class="dot" onclick="currentSlide(5,1)"></span>
+            <span class="dot" onclick="currentSlide(6,1)"></span>
+
+        </div>
+
+
+
+       <a class="BodyText">
+            the astronaut project was closely related with the spaceship project as they are of the same genre and things like the spacesuit can be seen <br>
+            in both. this project is very different however as it is made by using 3d sculpting tools rather then hard modeling, this is a very difficult<br>
+            modeling technique that required a lot of failed attempts to get a product as good as the astronaut. the hardest part of this model was definitly<br>
+            the face and head as its so difficult to get it to look anywhere near human.
+            <br>
+            the entire model inluding the face and eyes have been attatched to a rig so that they can be effectivly moved into positions like the one shown
+
+        
+        </a>
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+ <br><br> <a class="sectionTitles"> offroad car</a>
+<hr style="  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;">
+
+
+
+        </a>
+        <div class="slideshow-container" id="car slideshow container">
+            <div class="mySlidesCar fade" style="display:block" id="carimage1">
+                <img src="images/car/car base viewport.jpg" style="width:100%">
+                <div id = "cartext1" class="text">car caption 1</div>
+            </div>
+            <div  class="mySlidesCar fade"id="carimage2">
+                <img src="images/car/car base render.jpg" style="width:100%">
+                <div id = "cartext2" class="text">car caption 2</div>
+            </div>
+            <div class="mySlidesCar fade" id="carimage3">
+                <img src="images/car/car garage viewport.jpg" style="width:100%">
+                <div id = "cartext3" class="text">car caption 3</div>
+            </div>
+            <div class="mySlidesCar fade" id="carimage4">
+                <img src="images/car/car garage render.jpg" style="width:100%">
+                <div id = "cartext4" class="text">car caption 4</div>
+            </div>
+
+            
+              <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1,2)"></span>
+            <span class="dot" onclick="currentSlide(2,2)"></span>
+            <span class="dot" onclick="currentSlide(3,2)"></span>
+            <span class="dot" onclick="currentSlide(4,2)"></span>
+
+        </div>
+
+
+
+       <a class="BodyText">
+            the car was a great project for getting used to things like creating a smooth hard body object based of combining refernce images, this specific<br>
+            car is based off a comboniation of several cars such as the lancia stratos for the body and rear, amd the 1975 FIAT x1/9 and 1975 citroen DS 23 <br>
+            for the front frame, i also used popup headlights which were very common for a while, but are iconic on miatas. <br>
+            <br>
+            this project i focused a lot on creating realisitic textures both for the car and the surrounding garage, thats why you see the racing stripes,<br>
+            wings, and stickers on the body <br>
+                
+            
+
+
+        
+        </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <br><br> <a class="sectionTitles"> house</a>
+<hr style="  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;">
+
+
+
+
+        <div class="slideshow-container" id="house slideshow container">
+            <div class="mySlidesHouse fade" style="display:block" id="houseimage1">
+                <img src="images/house/house1.jpg" style="width:100%">
+                <div id = "housetext1" class="text">house caption 1</div>
+            </div>
+            <div  class="mySlidesHouse fade"id="houseimage2">
+                <img src="images/house/house2.jpg" style="width:100%">
+                <div id = "housetext2" class="text">house caption 2</div>
+            </div>
+            <div class="mySlidesHouse fade" id="houseimage3">
+                <img src="images/house/house3.jpg" style="width:100%">
+                <div id = "housetext3" class="text">house caption 3</div>
+            </div>
+            <div class="mySlidesHouse fade" id="houseimage4">
+                <img src="images/house/house4.jpg" style="width:100%">
+                <div id = "housetext4" class="text">house caption 4</div>
+            </div>
+            <div class="mySlidesHouse fade" id="houseimage5">
+                <img src="images/house/house5.jpg" style="width:100%">
+                <div id = "housetext5" class="text">house caption 5</div>
+            </div>
+            <div class="mySlidesHouse fade" id="houseimage6">
+                <img src="images/house/house6.jpg" style="width:100%">
+                <div id = "housetext6" class="text">house caption 6</div>
+            </div>
+            <div class="mySlidesHouse fade" id="houseimage7">
+                <img src="images/house/house7.jpg" style="width:100%">
+                <div id = "housetext7" class="text">house caption 7</div>
+            </div>
+            <div class="mySlidesHouse fade" id="houseimage8">
+                <img src="images/house/house8.jpg" style="width:100%">
+                <div id = "housetext8" class="text">house caption 8</div>
+            </div>
+            <div class="mySlidesHouse fade" id="houseimage9">
+                <img src="images/house/house9.jpg" style="width:100%">
+                <div id = "housetext9" class="text">house caption 9</div>
+            </div>
+              <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1,3)"></span>
+            <span class="dot" onclick="currentSlide(2,3)"></span>
+            <span class="dot" onclick="currentSlide(3,3)"></span>
+            <span class="dot" onclick="currentSlide(4,3)"></span>
+            <span class="dot" onclick="currentSlide(5,3)"></span>
+            <span class="dot" onclick="currentSlide(6,3)"></span>
+            <span class="dot" onclick="currentSlide(7,3)"></span>
+            <span class="dot" onclick="currentSlide(8,3)"></span>
+            <span class="dot" onclick="currentSlide(9,3)"></span>
+        </div>
+
+
+
+       <a class="BodyText">
+            the house was the first large project i undertook, i first began it with just the hard shapes of the frame and basic blocky furniture but over<br>
+            the years i slowly upgraded it with the better kitchen, furniture, and other rooms. it is only partly textures which is why rendered view is not<br>
+            displayed here, the main texture i created was a wooden floor texture by hand.<br>
+
+            the entire house featurtes a living area, tv area, entryway, kitchen, outside patio, bedroom, bathroom, office, and workshop. however it still <br>
+            looks very empty, this is mainly because it was my first major project and i wasnt as good back then
+
+
+        
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <br><br> <a class="sectionTitles"> geometry node projects</a>
+<hr style="  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;">
+
+        <div class="slideshow-container" id="geo slideshow container">
+            <div class="mySlidesGeoNodes fade" style="display:block" id="geoimage1">
+                <img src="images/geometry nodes/fence.png" style="width:100%">
+                <div id = "geotext1" class="text">geo caption 1</div>
+            </div>
+            <div  class="mySlidesGeoNodes fade"id="geoimage2">
+                <img src="images/geometry nodes/fence geo node settings.png" style="width:100%; max-height: 1000px; max-width: 512px;">
+                <div id = "geotext2" class="text">geo caption 2</div>
+            </div>
+            <div class="mySlidesGeoNodes fade" id="geoimage3">
+                <img src="images/geometry nodes/string1.png" style="width:100%">
+                <div id = "geotext3" class="text">geo caption 3</div>
+            </div>
+            <div class="mySlidesGeoNodes fade" id="geoimage4">
+                <img src="images/geometry nodes/string2.png" style="width:100%">
+                <div id = "geotext4" class="text">geo caption 4</div>
+            </div>
+            <div class="mySlidesGeoNodes fade" id="geoimage5">
+                <img src="images/geometry nodes/string3.png" style="width:100%">
+                <div id = "geotext5" class="text">geo caption 5</div>
+            </div>
+            <div class="mySlidesGeoNodes fade" id="geoimage6">
+                <img src="images/geometry nodes/river viewport.png" style="width:100%">
+                <div id = "geotext6" class="text">geo caption 6</div>
+            </div>
+            <div class="mySlidesGeoNodes fade" id="geoimage7">
+                <img src="images/geometry nodes/river render.png" style="width:100%">
+                <div id = "geotext7" class="text">house caption 7</div>
+            </div>
+
+              <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1,4)"></span>
+            <span class="dot" onclick="currentSlide(2,4)"></span>
+            <span class="dot" onclick="currentSlide(3,4)"></span>
+            <span class="dot" onclick="currentSlide(4,4)"></span>
+            <span class="dot" onclick="currentSlide(5,4)"></span>
+            <span class="dot" onclick="currentSlide(6,4)"></span>
+            <span class="dot" onclick="currentSlide(7,4)"></span>
+
+        </div>
+
+
+
+       <a class="BodyText">
+            this and the next few sections are about geometry nodes which is a system that allows modular creating of objects rather than hand making<br>
+            <br><br>
+            the first project shown is a procedural fence which takes a curve and projects it onto a plane to create a easily movable fence, it also has <br>
+            editable settings like post distance, amount of horizontal slats and many more<br><br>
+            the second example is a thread/string generator which twists threads around a curve and can also be editied with various setting such as a <br>
+            fray point, as shown in the fifth image<br>
+            thirdly is a plane with vegetation and rocks which automatically adapt to a river which is attatched to a curve<br>
+
+        
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <br><br> <a class="sectionTitles"> geometry node building</a>
+<hr style="  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;">
+
+
+        <div class="slideshow-container" id="building slideshow container">
+            <div class="mySlidesBuilding fade" style="display:block" id="buildingimage1">
+                <img src="images/building/building1.png" style="width:100%">
+                <div id = "buildingtext1" class="text">building caption 1</div>
+            </div>
+            <div  class="mySlidesBuilding fade"id="buildingimage2">
+                <img src="images/building/building2.png" style="width:100%">
+                <div id = "buildingtext2" class="text">building caption 2</div>
+            </div>
+            <div class="mySlidesBuilding fade" id="buildingimage3">
+                <img src="images/building/building geonode.png" style="width:100%">
+                <div id = "buildingtext3" class="text">building caption 3</div>
+            </div>
+            <div class="mySlidesBuilding fade" id="buildingimage4">
+                <img src="images/building/building nodes.png"  style="width:100%; max-height: 800px; max-width: 512px;">
+                <div id = "buildingtext4" class="text">building caption 4</div>
+            </div>
+
+            
+              <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1,5)"></span>
+            <span class="dot" onclick="currentSlide(2,5)"></span>
+            <span class="dot" onclick="currentSlide(3,5)"></span>
+            <span class="dot" onclick="currentSlide(4,5)"></span>
+
+        </div>
+
+
+
+       <a class="BodyText">
+            this project is a procedural building generator also based on a geoemetry node system. while this is designed to create skyscrapers specifically<br>
+            it is also able to make shorter and wider buildings. its capable of making buildings in several styles such as the more cyberpunk style in<br>
+            the first image, or the more modern/futuristic style in the second image.<br><br>
+
+            the third image shows what one of these geometry node setups looks like in the editor
+
+
+
+        
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <br><br> <a class="sectionTitles"> geometry node rocks</a>
+<hr style="  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;">
+
+
+
+        <div class="slideshow-container" id="rock slideshow container">
+            <div class="mySlidesRock fade" style="display:block" id="rockimage1">
+                <img src="images/rocks/sharp rock.png" style="width:100%">
+                <div id = "rocktext1" class="text">rock caption 1</div>
+            </div>
+            <div  class="mySlidesRock fade"id="rockimage2">
+                <img src="images/rocks/lumpy.png" style="width:100%">
+                <div id = "rocktext2" class="text">rock caption 2</div>
+            </div>
+            <div class="mySlidesRock fade" id="rockimage3">
+                <img src="images/rocks/extralumpy.png" style="width:100%">
+                <div id = "rocktext3" class="text">rock caption 3</div>
+            </div>
+            <div class="mySlidesRock fade" id="rockimage4">
+                <img src="images/rocks/round rock.png" style="width:100%">
+                <div id = "rocktext4" class="text">rock caption 4</div>
+            </div>
+            <div class="mySlidesRock fade" id="rockimage5">
+                <img src="images/rocks/ore.png" style="width:100%">
+                <div id = "rocktext5" class="text">rock caption 5</div>
+            </div>
+            <div class="mySlidesRock fade" id="rockimage6">
+                <img src="images/rocks/shale.png" style="width:100%">
+                <div id = "rocktext6" class="text">rock caption 6</div>
+            </div>
+            <div class="mySlidesRock fade" id="rockimage7">
+                <img src="images/rocks/asteroid.png" style="width:100%">
+                <div id = "rocktext7" class="text">rock caption 7</div>
+            </div>
+            <div class="mySlidesRock fade" id="rockimage8">
+                <img src="images/rocks/asteroid nodes.png" style="width:100%">
+                <div id = "rocktext8" class="text">rock caption 8</div>
+            </div>
+
+              <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1,6)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1,6)"></span>
+            <span class="dot" onclick="currentSlide(2,6)"></span>
+            <span class="dot" onclick="currentSlide(3,6)"></span>
+            <span class="dot" onclick="currentSlide(4,6)"></span>
+            <span class="dot" onclick="currentSlide(5,6)"></span>
+            <span class="dot" onclick="currentSlide(6,6)"></span>
+            <span class="dot" onclick="currentSlide(7,6)"></span>
+            <span class="dot" onclick="currentSlide(8,6)"></span>
+        </div>
+
+
+
+       <a class="BodyText">
+            the procedural rock generaetor is eawsily the most technically difficult project i have done as the amount of geometry node dealings was<br>
+            increadibly high, each rock has its own very complicated system for generation, as can be seen on slide 8, this is the geometry node setup for just<br>
+            creating the asteroid rock type<br>
+
+            one of the most complicated is the flat shale type as it is based on taking from a voronoi image which is randomized to get the 2d plane which<br>
+            is then extruded upwards, this might sound simple in writing but is very complex in execution
+        
+        </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <br><br> <a class="sectionTitles"> weaopons</a>
+<hr style="  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;">
+
+         <div class="slideshow-container" id="weapons slideshow container">
+            <div class="mySlidesWeapons fade" style="display:block" id="rockimage1">
+                <img src="images/weapons/pistol.png" style="width:100%">
+                <div id = "weaponstext1" class="text">pistol</div>
+            </div>
+            <div  class="mySlidesWeapons fade"id="weaponsimage2">
+                <img src="images/weapons/rifle.png" style="width:100%">
+                <div id = "weaponstext2" class="text">rifle</div>
+            </div>
+            <div class="mySlidesWeapons fade" id="weaponsimage3">
+                <img src="images/weapons/scopes.png" style="width:100%">
+                <div id = "weaponstext3" class="text">scopes</div>
+            </div>
+            <div class="mySlidesWeapons fade" id="weaponsimage4">
+                <img src="images/weapons/shotgun.png" style="width:100%">
+                <div id = "weaponstext4" class="text">shotgun</div>
+            </div>
+            <div class="mySlidesWeapons fade" id="weaponsimage5">
+                <img src="images/weapons/knife.png" style="width:100%">
+                <div id = "weaponstext5" class="text">knife</div>
+            </div>
+
+
+              <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1,7)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 7)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1,7)"></span>
+            <span class="dot" onclick="currentSlide(2,7)"></span>
+            <span class="dot" onclick="currentSlide(3,7)"></span>
+            <span class="dot" onclick="currentSlide(4,7)"></span>
+            <span class="dot" onclick="currentSlide(5,7)"></span>
+
+        </div>
+
+
+
+       <a class="BodyText" style="margin-bottom: 48px;">
+            one of the main ways that i imporved was through building thses weaopns as they are small solid objects which can be based on an image<br>
+            this would mark the turning point to where i could eventually make something as good as the spaceship at the top as the hard modeling skills<br>
+            would have been developed<br>
+<br>
+            these weapons are also able to be used in creating video games which was one of the things that initally got me into 3d-design
+
+
+        
+        </a>
     </div>
 </body>
 </html>

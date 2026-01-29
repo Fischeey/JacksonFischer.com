@@ -5,6 +5,10 @@
 .BodyText{
     color: white;
     font-size: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Header{
     position:sticky;
@@ -109,4 +113,14 @@
 
 .mainbody{
     margin: 12px;
+}
+
+.sectionTitles{
+    color: white;
+    font-size: 32px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
 }

@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jackson Fischer</title>
     <link rel="stylesheet" href = "../style.css">
-    <script src="../script.js"></script>
+    <script src="../main.js"></script>
 </head>
-<body onload="x();" id = "Body" class = "Body">
+<body  id = "Body" class = "Body">
     <div  id="Header" class = "Header"> 
         <button onclick=MenuDropdown() id="Menu-Button" class="Menu-Button"> 
             <div class="Menu-Dropdown-Button-Div">
                 <svg xmlns="http://www.w3.org/2000/svg" class = "Menu-Dropdown-Icon"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-                <a class="Current-Page-Text">Home</a>
+                <a class="Current-Page-Text">Resume</a>
              </div>
         </button>
         
-        <a class="Website-Title">JacksonFischer.com</a> 
+        <a class="Website-Title" onclick=home()>JacksonFischer.com</a> 
         <div    style="    border-right: solid 1px grey;"></div>
-    </div>
-    <div id = "MenuDropdown" class="Menu-Dropdown" style="margin-top: -196px;" >
+            <div id = "MenuDropdown" class="Menu-Dropdown" style="margin-top: -225px;" >
         <div id = "Dropdown1" class = "Dropdown">
-            <button class="Page-Select-Button" onclick=design()>
+            <button class="Page-Select-Button" onclick=home()>
                 <div style="float: left;">
                     <svg xmlns="http://www.w3.org/2000/svg" class = "Dash"><line x1="3" y1="12" x2="21" y2="12"></line></svg>
-                    <a id="Page-Select1" class="Page-Select">3D Design Portfolio</a>
+                    <a id="Page-Select3" class="Page-Select">Home</a>
                 </div>
             </button>
+            
         </div>
         <div id = "Dropdown2" class = "Dropdown" >
             <button class="Page-Select-Button" onclick=woodworking()>
@@ -37,13 +37,15 @@
             </button>
         </div>
         <div id = "Dropdown3" class = "Dropdown" >
-            <button class="Page-Select-Button" onclick=resume()>
+            <button class="Page-Select-Button" onclick=design()>
                 <div style="float: left;">
                     <svg xmlns="http://www.w3.org/2000/svg" class = "Dash"><line x1="3" y1="12" x2="21" y2="12"></line></svg>
-                    <a id="Page-Select3" class="Page-Select">Extended Resume</a>
+                    <a id="Page-Select1" class="Page-Select">3D Design Portfolio</a>
                 </div>
             </button>
         </div>
+    </div>
+
         <!-- <div id = "Dropdown4" class = "Dropdown" >
             <button class="Page-Select-Button" onclick=secret()>
                 <div style="float: left;">
@@ -54,8 +56,22 @@
         </div> -->
     </div> 
     <div class="mainbody">
-        <a class="BodyText">hello, resume</a>
         
+ <br><br> <a class="sectionTitles">resume</a>
+<hr style="  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;">
+        <!-- <object data="document.pdf" type="application/pdf" width="100%" height="100%">
+            <p>Your browser does not support PDFs.
+            <a href="document.pdf">Download the PDF</a>.</p>
+        </object> -->
+
+
+        <br><br> <a class="sectionTitles">temporarily not implemented, please email me at jackson@jacksonfischer.com if you would like to contact me</a>
     </div>
 </body>
 </html>
