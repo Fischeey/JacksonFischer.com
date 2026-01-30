@@ -124,3 +124,29 @@
     align-items: center;
     margin: 24px;
 }
+
+.bodyImage{
+    max-width: 512px;
+    max-height: 512px;
+      position: relative;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 24px; */
+}
+.bodyVideo{
+
+    max-width: 768px;
+    max-height: 768px;
+    position: relative;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 24px; */
+
+}
+
