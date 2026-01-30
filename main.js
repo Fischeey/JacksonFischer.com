@@ -18,6 +18,9 @@ function MenuDropdown() {
 function home() {
     window.open("http://jacksonfischer.com","_self");
 }
+function ficlio() {
+    window.open("http://jacksonfischer.com/ficlio/index.html","_self");
+}
 function design() {
     window.open("http://jacksonfischer.com/3dDesign/index.html","_self");
 }
